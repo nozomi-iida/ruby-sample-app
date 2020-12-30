@@ -1,0 +1,3 @@
+Resolving dependencies...
+class ApplicationController < ActionController::Base
+end
