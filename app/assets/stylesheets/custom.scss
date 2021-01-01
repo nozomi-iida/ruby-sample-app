@@ -1,5 +1,4 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@import 'bootstrap/dist/css/bootstrap';
 
 /* mixins, variables, etc. */
 
@@ -181,6 +180,6 @@ input {
 .field_with_errors {
   @extend .has-error;
   .form-control {
-    color: $state-danger-text;
+    color: red;
   }
 }
